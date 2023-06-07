@@ -1,4 +1,4 @@
-group 'com.example.platform_lyfecycle'
+group 'com.example.platform_lifecycle'
 version '1.0-SNAPSHOT'
 
 buildscript {

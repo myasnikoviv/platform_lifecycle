@@ -1,4 +1,4 @@
-name: platform_lyfecycle
+name: platform_lifecycle
 description: A new Flutter plugin project.
 version: 0.0.1
 homepage:
@@ -35,7 +35,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.platform_lyfecycle
+        package: com.example.platform_lifecycle
         pluginClass: PlatformLyfecyclePlugin
       ios:
         pluginClass: PlatformLyfecyclePlugin

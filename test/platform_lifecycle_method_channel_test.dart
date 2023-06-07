@@ -1,10 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:platform_lyfecycle/platform_lyfecycle_method_channel.dart';
+import 'package:platform_lifecycle/platform_lifecycle_method_channel.dart';
 
 void main() {
-  MethodChannelPlatformLyfecycle platform = MethodChannelPlatformLyfecycle();
-  const MethodChannel channel = MethodChannel('platform_lyfecycle');
+  MethodChannelPlatformLifeCycle platform = MethodChannelPlatformLifeCycle();
+  const MethodChannel channel = MethodChannel('platform_lifecycle');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

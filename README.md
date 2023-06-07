@@ -1,4 +1,4 @@
-# platform_lyfecycle
+# platform_lifecycle
 
 A new Flutter plugin project.
 

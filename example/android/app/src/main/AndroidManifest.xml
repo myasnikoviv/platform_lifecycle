@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.platform_lyfecycle_example">
+    package="com.example.platform_lifecycle_example">
    <application
-        android:label="platform_lyfecycle_example"
+        android:label="platform_lifecycle_example"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

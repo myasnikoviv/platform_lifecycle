@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:platform_lyfecycle/platform_lyfecycle.dart';
+import 'package:platform_lifecycle/platform_lifecycle.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
-  final _platformLyfecyclePlugin = PlatformLyfecycle();
+  final _platformLyfecyclePlugin = PlatformLifeCycle();
 
   @override
   void initState() {

@@ -1,6 +1,6 @@
-# platform_lyfecycle_example
+# platform_lifecycle_example
 
-Demonstrates how to use the platform_lyfecycle plugin.
+Demonstrates how to use the platform_lifecycle plugin.
 
 ## Getting Started
 
