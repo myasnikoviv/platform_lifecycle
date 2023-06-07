@@ -36,9 +36,9 @@ flutter:
     platforms:
       android:
         package: com.example.platform_lifecycle
-        pluginClass: PlatformLyfecyclePlugin
+        pluginClass: PlatformLifeCyclePlugin
       ios:
-        pluginClass: PlatformLyfecyclePlugin
+        pluginClass: PlatformLifeCyclePlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

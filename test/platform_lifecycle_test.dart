@@ -20,10 +20,10 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    PlatformLifeCycle platformLyfecyclePlugin = PlatformLifeCycle();
+    PlatformLifeCycle platformLifeCyclePlugin = PlatformLifeCycle();
     MockPlatformLifeCyclePlatform fakePlatform = MockPlatformLifeCyclePlatform();
     PlatformLifeCyclePlatform.instance = fakePlatform;
 
-    expect(await platformLyfecyclePlugin.getPlatformVersion(), '42');
+    expect(await platformLifeCyclePlugin.getPlatformVersion(), '42');
   });
 }

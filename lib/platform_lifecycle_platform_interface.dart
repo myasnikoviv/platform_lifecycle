@@ -3,7 +3,7 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 import 'platform_lifecycle_method_channel.dart';
 
 abstract class PlatformLifeCyclePlatform extends PlatformInterface {
-  /// Constructs a PlatformLyfecyclePlatform.
+  /// Constructs a PlatformLifeCyclePlatform.
   PlatformLifeCyclePlatform() : super(token: _token);
 
   static final Object _token = Object();

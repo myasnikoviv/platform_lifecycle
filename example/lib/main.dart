@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
-  final _platformLyfecyclePlugin = PlatformLifeCycle();
+  final _platformLifeCyclePlugin = PlatformLifeCycle();
 
   @override
   void initState() {
@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
     // We also handle the message potentially returning null.
     try {
       platformVersion =
-          await _platformLyfecyclePlugin.getPlatformVersion() ?? 'Unknown platform version';
+          await _platformLifeCyclePlugin.getPlatformVersion() ?? 'Unknown platform version';
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
